@@ -1,0 +1,64 @@
+/*
+Theme Name: Designlov 2013
+Theme URI: -
+Description: Designlov custom theme
+Version: 1.0
+Author: André
+Author URI: http://objetoweb.com/andre
+License:
+License URI:
+*/
+
+@font-face {font-family: 'ProximaNovaLight';src: url('fonts/proximanova-light-webfont.eot');src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/proximanova-light-webfont.woff') format('woff'),url('fonts/proximanova-light-webfont.ttf') format('truetype'),url('fonts/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'ProximaNovaRegular';src: url('fonts/ProximaNova-Reg-webfont.eot');src: url('fonts/ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/ProximaNova-Reg-webfont.woff') format('woff'),url('fonts/ProximaNova-Reg-webfont.ttf') format('truetype'),url('fonts/ProximaNova-Reg-webfont.svg#ProximaNovaRegular') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'ProximaNovaBold';src: url('fonts/ProximaNova-Bold-webfont.eot');src: url('fonts/ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/ProximaNova-Bold-webfont.woff') format('woff'),url('fonts/ProximaNova-Bold-webfont.ttf') format('truetype'),url('fonts/ProximaNova-Bold-webfont.svg#ProximaNovaBold') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'ProximaNovaSemiBold';src: url('onts/ProximaNova-Sbold-webfont.eot');src: url('fonts/ProximaNova-Sbold-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/ProximaNova-Sbold-webfont.woff') format('woff'),url('fonts/ProximaNova-Sbold-webfont.ttf') format('truetype'),url('fonts/ProximaNova-Sbold-webfont.svg#ProximaNovaSemiBold') format('svg');font-weight: normal;font-style: normal;}
+
+
+html, body{font:16px ProximaNovaRegular, helvetica;}
+
+.wrapper{max-width:1170px;margin:0 auto;position:relative;}
+
+header{background:#f36143 url(images/bg-top.png) repeat-x top left;padding:33px 0;text-align:center;margin:0 0 30px;}
+header h1{margin:0 auto;width:202px;}
+header h1 a{text-indent:-5000px;float:left;width:202px;height:27px;background:url(images/logo-big.png) no-repeat;}
+header menu{padding:20px 0 0;clear:left;}
+header menu li {display:inline;margin:0 15px;}
+header menu li.current-cat{background:url(images/active-menu-item.jpg) no-repeat bottom center;padding-bottom:34px}
+header menu li a{color:#fbd0c7;font-size:24px;}
+header form{position:absolute;top:0;right:0;}
+header form input[type="text"]{outline:none;background:none;border:none;color:#fff;font-size:16px;}
+header form input[type="submit"]{background:url(images/search-button.png);border:none;width:17px;height:17px;}
+
+.section-utils{margin:20px 0 50px;}
+.section-utils h2{text-align:center;font-size:80px;color:#666;}
+.section-utils p{text-align:center;color:#666;font-size:22px;margin-top:5px;}
+
+ul.grid{}
+ul.grid li{margin:0 15px 30px 15px;width:360px;display:inline-block;text-align:left;}
+ul.grid li.arte{background:#eb7049;}
+ul.grid li.arte small{background:#ef8d6d;}
+ul.grid li.arquitetura{background:#00c6be;}
+ul.grid li.arquitetura small{background:#36d2cc;}
+ul.grid li.fotografia{background:#009ddb;}
+ul.grid li.fotografia small{background:#33b1e2;}
+ul.grid li.design{background:#ea5b5b;}
+ul.grid li.design small{background:#ee7c7c;}
+ul.grid li figure{padding:0;display:block;margin:0;}
+ul.grid li figure img{width:100%;}
+ul.grid li figure figcaption{padding:10px 0 23px;font-family: ProximaNovaLight}
+ul.grid li figure figcaption small{border-radius: 0 20px 20px 0;color:#fff;padding:9px 19px 9px 29px;}
+ul.grid li figure figcaption span{color:#fff;padding:22px 0 0 30px;display:block;font-size:26px;}
+
+.nav{margin:51px auto 81px;width:366px;}
+.nav a{color:#333;font-size:22px;padding:47px 0;}
+.nav a.previous{padding-right:24px;float:left;padding-left:80px;background:#f6f6f3 url(images/nav-left.png) no-repeat 39px center}
+.nav a.next{padding-left:24px;float:right;padding-right:80px;background:#f6f6f3 url(images/nav-right.png) no-repeat 113px center}
+
+footer{background:#f36143;padding:22px 0;margin-top:86px;}
+footer h4 a{float:left;width:144px;height:19px;background:url(images/logo-small.png) no-repeat;text-indent:-500px}
+footer nav{float:left;clear:left;margin:10px 0 0;}
+footer nav li{display:inline;border-left:1px solid #fff;padding-left:10px;margin-left:10px;}
+footer nav li:nth-child(1){border:0;padding:0;margin:0;}
+footer nav li a{color:#fff;font-size:14px}
+footer small{color:#fff;font-size:12px;margin:12px 0 0;}
